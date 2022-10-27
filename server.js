@@ -4,14 +4,13 @@ const PORT = process.env.PORT || 3001;
 
 
 // Create a route for every file in the 'public' folder.
-app
-.use(express.static('public'))
-.use(express.urlencoded({ extended: true }))
-.use(express.json())
+app.use(express.static('public'));
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 // Routes
-require('/apiRoutes')(app);
-require('/htmlRoutes')(app);
+require('./routes/apiRoutes')(app);
+require('./routes/htmlRoutes')(app);
 
 
 // Starts the server.
