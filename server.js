@@ -5,15 +5,13 @@ const PORT = process.env.PORT || 3001;
 
 // Create a route for every file in the 'public' folder.
 app
-.use(express.static('/Develop/public'))
+.use(express.static('public'))
 .use(express.urlencoded({ extended: true }))
 .use(express.json())
-.get('*',function (req,res) {
-    res.sendFile('./public/main.html');
 
 // Routes
-require('./Develop/public/routes/apiRoutes')(app);
-require('./Develop/public/routes/htmlRoutes')(app);
+require('/apiRoutes')(app);
+require('/htmlRoutes')(app);
 
 
 // Starts the server.
