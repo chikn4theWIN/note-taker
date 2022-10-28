@@ -1,15 +1,15 @@
 const path = require('path');
 
 
-// Routes
+// Routing
 module.exports = (app) => {
 
-  // Create routes.
+  // Return notes.html file.
   app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/notes.html'));
   });
 
-  // Return index.html
+  // Return index.html file.
   app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/index.html'));
   })
