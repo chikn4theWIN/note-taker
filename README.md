@@ -4,7 +4,7 @@
 
 * [Description](#description)
 * [Screenshots](#screenshots)
-* [Links](#links)
+* [Deployed Application](#applcation)
 
 ## Description
 
@@ -14,7 +14,7 @@ This Note Taker application can be used to type and save notes for personal or b
 ![Home Page](https://user-images.githubusercontent.com/110701339/198422253-ca8e6d33-6247-4173-8af8-c93280f368cd.png)
 ![Notes Page](https://user-images.githubusercontent.com/110701339/198422261-187fdea7-67a8-40e0-9e7a-aecd9e81a76c.png)
 
-## Links 
+## Application
 
 * [Heroku Deployed Application](https://note-taker-chikn4thewin.herokuapp.com/)
 
