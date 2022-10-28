@@ -17,7 +17,6 @@ This Note Taker application can be used to type and save notes for personal or b
 ## Links 
 
 * [Heroku Deployed Application](https://note-taker-chikn4thewin.herokuapp.com/)
-* [GitHub Deployed Application]()
 
 ## Thanks!
 
